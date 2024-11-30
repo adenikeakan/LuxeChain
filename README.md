@@ -6,6 +6,33 @@ Welcome to Luxe Chain, where blockchain technology meets haute couture. Our plat
 
 Fashion counterfeiting costs the industry billions annually, while sustainability concerns and authentication challenges plague the resale market. Luxe Chain transforms these challenges into opportunities by leveraging the Stacks blockchain's security and Bitcoin's reliability to create an immutable record of fashion items' authenticity, ownership, and sustainability credentials.
 
+## Project Structure
+```
+luxe-chain/
+├── contracts/
+│   ├── luxury-auth.clar         # Main authentication contract
+│   ├── marketplace.clar         # Marketplace functionality
+│   └── models/
+│       ├── fashion-item.clar    # Fashion item data model
+│       └── authentication.clar   # Authentication data model
+├── tests/
+│   ├── luxury-auth_test.ts
+│   └── marketplace_test.ts
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── utils/
+│   ├── public/
+│   └── package.json
+├── scripts/
+│   └── deploy.ts
+├── .gitignore
+├── package.json
+├── README.md
+└── Clarinet.toml
+```
+
 ## Why Blockchain?
 
 The fashion industry's authentication methods have remained largely unchanged for decades, relying on certificates of authenticity that can be forged, lost, or damaged. Blockchain technology provides an elegant solution through:
