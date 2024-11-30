@@ -6,6 +6,9 @@ telemetry = false
 requirements = []
 cache_dir = "/home/runner/LuxeChain/LuxeChain/LuxeChain/./.requirements"
 boot_contracts = ["pox", "costs-v2", "bns"]
+[contracts.authentication]
+path = "contracts/authentication.clar"
+
 [contracts.fashion-item]
 path = "contracts/fashion-item.clar"
 
