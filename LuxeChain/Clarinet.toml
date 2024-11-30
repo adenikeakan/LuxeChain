@@ -15,6 +15,9 @@ path = "contracts/fashion-item.clar"
 [contracts.luxury-auth]
 path = "contracts/luxury-auth.clar"
 
+[contracts.sip009-nft-trait]
+path = "contracts/sip009-nft-trait.clar"
+
 [repl]
 costs_version = 2
 parser_version = 2
