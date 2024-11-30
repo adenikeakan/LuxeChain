@@ -12,6 +12,9 @@ path = "contracts/authentication.clar"
 [contracts.fashion-item]
 path = "contracts/fashion-item.clar"
 
+[contracts.luxury-auth]
+path = "contracts/luxury-auth.clar"
+
 [repl]
 costs_version = 2
 parser_version = 2
